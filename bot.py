@@ -14,7 +14,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, fil
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # ====== Config =======
-BOT_TOKEN = 'YOUR_BOT_TOKEN_HERE'
+BOT_TOKEN = '7928470785:AAHMz54GOWoI-NsbD2zyj0Av_VbnqX7fYzI'
 AUTHORIZED_USERS = [5248903529, 7081556047, 5519289321]
 SUPPORT_GROUP = -1002568201025
 SUPPORT_USERNAME = '@UNDIFINED_CC'
