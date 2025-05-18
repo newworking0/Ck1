@@ -238,6 +238,8 @@ if __name__ == '__main__':
         if "already running" in str(e):
             import nest_asyncio
             nest_asyncio.apply()
-            asyncio.get_event_loop().create_task(main())
+            loop = asyncio.get_event_loop()
+            loop.create_task(main())
+            loop.run_forever()
         else:
             raise e
